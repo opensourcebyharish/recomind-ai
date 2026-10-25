@@ -1,0 +1,124 @@
+```gitignore
+# ==========================================
+# SECRETS AND ENVIRONMENT VARIABLES
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+.venv/
+.venv310/
+venv/
+env/
+ENV/
+
+# ==========================================
+# DATABASES
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# DATASETS AND MACHINE LEARNING ARTIFACTS
+# ==========================================
+data/raw/*
+data/processed/*
+data/models/*
+ml/artifacts/*
+backend/data/datasets/
+
+!data/README.md
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/models/.gitkeep
+!ml/artifacts/.gitkeep
+
+# ==========================================
+# NODE.JS AND FRONTEND
+# ==========================================
+node_modules/
+frontend/node_modules/
+dist/
+dist-ssr/
+frontend/dist/
+.vite/
+*.local
+
+# ==========================================
+# LOGS AND TEMPORARY FILES
+# ==========================================
+*.log
+logs/
+tmp/
+temp/
+
+# ==========================================
+# OPERATING SYSTEM FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# IDE AND EDITOR FILES
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# JUPYTER
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# TEST AND COVERAGE OUTPUT
+# ==========================================
+coverage/
+.nyc_output/
+
+# ==========================================
+# GENERATED MODEL FILES
+# ==========================================
+*.pt
+*.pth
+*.onnx
+*.joblib
+*.pkl
+```
